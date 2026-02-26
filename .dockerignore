@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+
+# Data and outputs (not needed for web app)
+data/
+archive/
+outputs/
+examples/
+docs/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.md
+*.log
+modal_app.py
+test_*.py
+train_*.py
+evaluate_*.py

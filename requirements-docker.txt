@@ -1,0 +1,16 @@
+# Flask web app dependencies only
+flask>=3.0.0
+gunicorn>=21.0.0
+
+# Image processing
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Face detection
+facenet-pytorch>=2.5.0
+
+# PyTorch CPU-only (installed last via extra index)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision

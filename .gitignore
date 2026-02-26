@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data and outputs (large files)
+data/
+archive/
+outputs/
+examples/
+docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Not needed for web app
+models
+modal_app.py
+modal_train.py
+train.py
+test_image.py
+*.ipynb
+
+# Logs
+*.log
