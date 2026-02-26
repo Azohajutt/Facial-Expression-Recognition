@@ -12,13 +12,6 @@ pinned: false
 
 A deep learning web application that detects and classifies facial expressions in images. Built with PyTorch and Flask, featuring a ResNet-18 model trained on the RAF-DB dataset achieving **80% accuracy**.
 
-🚀 **[Live Demo](https://huggingface.co/spaces/TayyabManan/face-expression-detection)**
-
-![Demo](https://img.shields.io/badge/Demo-Live-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ## Features
 
 - **7 Emotion Classes**: Surprise, Fear, Disgust, Happiness, Sadness, Anger, Neutral
@@ -26,24 +19,13 @@ A deep learning web application that detects and classifies facial expressions i
 - **MTCNN Face Detection**: High-accuracy face detection with Haar Cascade fallback
 - **Real-time Visualization**: Annotated images with bounding boxes and emotion labels
 - **Confidence Scores**: Probability distribution across all emotion classes
-- **Dark/Light Mode**: Toggle between themes
-- **Responsive Design**: Works on desktop and mobile
 
-## Demo
-
-Upload any image with faces and get instant emotion predictions:
-
-| Input | Output |
-|-------|--------|
-| Group photo | Annotated with emotion labels |
-| Single portrait | Detailed probability breakdown |
 
 ## Tech Stack
 
 - **Model**: ResNet-18 (transfer learning from ImageNet)
 - **Face Detection**: MTCNN + Haar Cascade fallback
 - **Backend**: Flask + Gunicorn
-- **Frontend**: Vanilla JS with CSS animations
 - **Dataset**: RAF-DB (Real-world Affective Faces Database)
 
 ## Local Development
@@ -57,8 +39,8 @@ Upload any image with faces and get instant emotion predictions:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TayyabManan/face-expression-detection.git
-cd face-expression-detection
+git clone https://github.com/Azohajutt/Facial-Expression-Recognition.git
+cd Facial-Expression-Recognition
 
 # Install dependencies
 pip install -r requirements-docker.txt
@@ -116,15 +98,6 @@ docker run -p 5000:5000 face-expression
     └── index.html         # Frontend
 ```
 
-## Authors
-
-- **[Muhammad Tayyab](https://github.com/TayyabManan)**
-- **[Syed Measum](https://github.com/Syedmeasum14)**
-- **Mustafa Rahim**
-
-## Course
-
-Machine Learning for Engineering Design
 
 ## License
 
